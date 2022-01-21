@@ -183,6 +183,7 @@ else:
             ("mluke", ("MLukeTokenizer" if is_sentencepiece_available() else None, None)),
             ("bigbird_pegasus", ("PegasusTokenizer", "PegasusTokenizerFast" if is_tokenizers_available() else None)),
             ("canine", ("CanineTokenizer", None)),
+            ("character_bert", ("CharacterBertTokenizer", None)),
             ("bertweet", ("BertweetTokenizer", None)),
             ("bert-japanese", ("BertJapaneseTokenizer", None)),
             ("splinter", ("SplinterTokenizer", "SplinterTokenizerFast")),
